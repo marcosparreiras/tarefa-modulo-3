@@ -1,108 +1,144 @@
 /* Importe uma fonte do Google Fonts (por exemplo, "Nunito") */
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html {
+    font-size: 16px; /*C*/
+    background-color: #0c1d2e;
+}
 
 header {
-  background-color: #007bff;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  font-family: "Nunito", sans-serif;
-  font-size: 32px;
-  transition: background-color 0.3s ease;
+    /* background-color: #007bff; */
+    background-color: #173a5a; /*A*/
+    color: #ddd;
+    text-align: center;
+    padding: 20px 0;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Inter', sans-serif; /*B*/
+    /* font-size: 32px; */
+    font-size: 3rem; /*C*/
+    transition: 0.5s ease;
+    margin: 30px auto;
 }
 
 header:hover {
-  background-color: #0056b3;
+    /* background-color: #0056b3; */
+    background-color: #1d476f; /*D*/
+    color: #fff;
 }
 
 section {
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  margin-bottom: 20px;
-  padding: 20px;
-  font-family: "Nunito", sans-serif;
-  font-size: 18px;
-  transition: transform 0.2s ease;
+    margin: 20px auto;
+    width: 80vw;
+    color: #ddd; /*E*/
+    text-align: center; /*F*/
+    /* background-color: #fff; */
+    /* background-color: #333; */
+    background-color: #173a5a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    transition: 0.2s ease;
+    transform: scale(0.99);
 }
 
 section:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: #1d476f;
+    transform: scale(1);
 }
 
 h2 {
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 10px;
+    color: #ddd;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 form {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 label {
-  display: block;
-  margin-bottom: 10px;
-  color: #555;
-  font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    /* color: #555; */
+    color: #ddd;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
-  margin-right: 5px;
-  vertical-align: middle;
+input[type='radio'],
+input[type='checkbox'] {
+    margin-right: 5px;
+    vertical-align: middle;
 }
 
 select {
-  width: 100%;
-  padding: 12px;
-  font-size: 18px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  background-color: #fff;
-  font-family: "Nunito", sans-serif;
-  transition: border-color 0.3s ease;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: 'Nunito', sans-serif;
+    transition: border-color 0.3s ease;
+    width: 30%;
 }
 
 select:hover {
-  border-color: #007bff;
+    border-color: #007bff;
 }
 
-button[type="submit"] {
-  background-color: #28a745;
-  color: #fff;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: "Nunito", sans-serif;
-  font-size: 20px;
-  transition: background-color 0.3s ease;
+button[type='submit'] {
+    /* background-color: #28a745; */
+    background-color: #0056b3; /*H*/
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
 }
 
-button[type="submit"]:hover {
-  background-color: #218838;
+button[type='submit']:hover {
+    /* background-color: #218838; */
+    background-color: #007bff; /*I*/
 }
 
-input[type="range"] {
-  width: 100%;
-  margin-top: 10px;
+input[type='range'] {
+    width: 30%;
+    margin-top: 10px;
 }
 
 output {
-  display: block;
-  margin-top: 10px;
-  font-family: "Nunito", sans-serif;
-  font-size: 18px;
-  color: #333;
+    display: block;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    width: 80px;
+    margin: 10px auto;
+    border-radius: 80px;
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  font-family: "Nunito", sans-serif;
-  font-size: 16px;
+    /* background-color: #333; */
+    background-color: #173a5a; /*J*/
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Inter', sans-serif; /*K*/
+    font-size: 16px;
+}
+
+footer:hover {
+    background-color: #1d476f;
 }
